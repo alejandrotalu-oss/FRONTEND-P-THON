@@ -1,0 +1,40 @@
+/*esto es un comentario*/
+
+body {
+    background-color: peru;    
+}
+
+p {
+    color:blue;
+}
+
+h2 {
+    background-color: chartreuse;
+    font-size: 50px;
+}
+h3 {
+    background-color: chocolate;
+    font-size: 50px;
+}
+h4 {
+    font-size: 50px;
+}
+/* TODO: Añadan un background a la etiqueta h2, h3, h4 y cambien su tamaño a 50px */
+/*Tienen 5 minutos para resolver este ejercicio */
+
+h5 {
+    background-color: aqua;
+    font-size: 50px;
+}
+#estado {
+    background-color: yellow;
+}
+.btn {
+    background-color: red;
+}
+.texto-resaltado {
+    background-color: blue;
+}
+.btn-verde {
+    background-color: chartreuse;
+}
