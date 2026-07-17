@@ -20,11 +20,33 @@
             box-sizing: content-box; /*Valor por defecto, deja que nosotros calculemos el ancho de la caja incluyendo ancho, alto, padding, borde, margin*/
             box-sizing: border-box; /*deja que el navegador calculen el ancho de la caja incluyendo ancho, alto, padding, borde, margin*/
         }
+
+        .bloque {
+            background-color: lightcoral;
+            display: block;
+        }
+
+        .enlinea {
+            background-color: lightgreen;
+            display: inline;
+        }
+
+        .enlinea-bloque {
+            background-color: lightpink;
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
 
     <div class="caja"> Modelo de caja</div>
+
+    <!-- Tipos de cajas-->
+     <div class="bloque">BLOQUE</div>
+     <div class="enlinea">ENLINEA1</div>
+     <div class="enlinea">ENLINEA2</div>
+     <div class="enlinea-bloque">ENLINEA Y BLOQUE</div>
 
 </body>
 </html>
