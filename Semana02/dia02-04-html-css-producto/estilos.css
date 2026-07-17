@@ -1,0 +1,106 @@
+/*
+font-family: "Montserrat", sans-serif;
+font-family: "Fraunces", serif;
+*/
+
+body {
+    background-color: hsl(30, 38%, 92%);
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    
+    display: flex;
+    justify-content: center; /*Alineamiento horizontal*/
+    align-items: center; /*Alineamiento vertical*/
+    height: 100vh;
+}
+
+main {
+    
+   
+    width: 650px;
+    min-height: 400px;
+    
+    
+    display: flex; /* Alineación horizontal*/
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 350px;
+
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+}
+
+.content {
+    width: 300px;
+
+    padding: 28px;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.content h2 {
+    
+    
+    margin: 0; /*Espaciado externo, es un valor por defecto*/
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+/*TODO: Terminar con los estilos de las etiquetas h1 y p aplicando colores, fuentes y tamaños de letra*/
+
+.content h1 {
+    color:hsl(212, 21%, 14%);
+    font-family: "Fraunces", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.content p {
+    
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.content div {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.content span {
+    font-family: "Fraunces", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.content s {
+
+    color: hsl(228, 12%, 48%);
+}
+
+.content button {
+    /*border: 1px solid red;*/
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 14px;
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 14px;
+}
+
