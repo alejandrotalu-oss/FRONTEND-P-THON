@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Modelo de caja</title>
+    <style>
+        .caja {
+            background-color: coral;
+            width: 200px;
+            height: 50px;
+
+            border: 5px solid red;
+
+            padding: 10px; /*Espacio interno, entre el contenido y el borde*/
+            margin: 10px; /*Espacio externo, despues del borde*/
+
+            padding: 20px 10px 20px 10px ; /*TOP RIGHT BOTTON LEFT*/
+
+            box-sizing: content-box; /*Valor por defecto, deja que nosotros calculemos el ancho de la caja incluyendo ancho, alto, padding, borde, margin*/
+            box-sizing: border-box; /*deja que el navegador calculen el ancho de la caja incluyendo ancho, alto, padding, borde, margin*/
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caja"> Modelo de caja</div>
+
+</body>
+</html>
