@@ -2,9 +2,40 @@
 font-family: "Raleway", sans-serif;
 font-family: "Open Sans", sans-serif;
 */
+/* GENERALES */
+
+/* Selector universal */
+
+* {
+  /* border: 1xp solid red; */
+  box-sizing: border-box;  
+  margin: 0;
+}
+
+html {
+    font-size: 14px; /*16px es el valor por defecto*/
+}
 
 body {
-    background-color: aquamarine;
-    font-size: 14px;
+    background-color: hsl(218, 28%, 13%);
+
+    color: hsl(0, 0%, 100%);
+    /* font-size: 14px; */
+    font-family: "Open Sans", sans-serif;
     /*border: 1px solid red;*/
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    /*TODO: RWD(RESPONSIVE WEB DESIGN) para las imagenes*/
+}
+
+/* UTILITARIOS */
+
+.hidden {
+    display: none;
 }
